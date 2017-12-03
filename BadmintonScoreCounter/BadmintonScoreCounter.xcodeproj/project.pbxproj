@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A02986341FD3F4E9005C2F16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02986331FD3F4E9005C2F16 /* AppDelegate.swift */; };
+		A02986361FD3F4E9005C2F16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02986351FD3F4E9005C2F16 /* ViewController.swift */; };
+		A02986391FD3F4E9005C2F16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02986371FD3F4E9005C2F16 /* Main.storyboard */; };
+		A029863B1FD3F4E9005C2F16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A029863A1FD3F4E9005C2F16 /* Assets.xcassets */; };
+		A029863E1FD3F4E9005C2F16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A029863C1FD3F4E9005C2F16 /* LaunchScreen.storyboard */; };
+		A02986491FD3F4E9005C2F16 /* BadmintonScoreCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02986481FD3F4E9005C2F16 /* BadmintonScoreCounterTests.swift */; };
+		A02986541FD3F4E9005C2F16 /* BadmintonScoreCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02986531FD3F4E9005C2F16 /* BadmintonScoreCounterUITests.swift */; };
+		A02986621FD42BFD005C2F16 /* StepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02986611FD42BFD005C2F16 /* StepperViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A02986451FD3F4E9005C2F16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A02986281FD3F4E9005C2F16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A029862F1FD3F4E9005C2F16;
+			remoteInfo = BadmintonScoreCounter;
+		};
+		A02986501FD3F4E9005C2F16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A02986281FD3F4E9005C2F16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A029862F1FD3F4E9005C2F16;
+			remoteInfo = BadmintonScoreCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A02986301FD3F4E9005C2F16 /* BadmintonScoreCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BadmintonScoreCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02986331FD3F4E9005C2F16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A02986351FD3F4E9005C2F16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A02986381FD3F4E9005C2F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A029863A1FD3F4E9005C2F16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A029863D1FD3F4E9005C2F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A029863F1FD3F4E9005C2F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A02986441FD3F4E9005C2F16 /* BadmintonScoreCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BadmintonScoreCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02986481FD3F4E9005C2F16 /* BadmintonScoreCounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadmintonScoreCounterTests.swift; sourceTree = "<group>"; };
+		A029864A1FD3F4E9005C2F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A029864F1FD3F4E9005C2F16 /* BadmintonScoreCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BadmintonScoreCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02986531FD3F4E9005C2F16 /* BadmintonScoreCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadmintonScoreCounterUITests.swift; sourceTree = "<group>"; };
+		A02986551FD3F4E9005C2F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A02986611FD42BFD005C2F16 /* StepperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A029862D1FD3F4E9005C2F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02986411FD3F4E9005C2F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A029864C1FD3F4E9005C2F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A02986271FD3F4E9005C2F16 = {
+			isa = PBXGroup;
+			children = (
+				A02986321FD3F4E9005C2F16 /* BadmintonScoreCounter */,
+				A02986471FD3F4E9005C2F16 /* BadmintonScoreCounterTests */,
+				A02986521FD3F4E9005C2F16 /* BadmintonScoreCounterUITests */,
+				A02986311FD3F4E9005C2F16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A02986311FD3F4E9005C2F16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A02986301FD3F4E9005C2F16 /* BadmintonScoreCounter.app */,
+				A02986441FD3F4E9005C2F16 /* BadmintonScoreCounterTests.xctest */,
+				A029864F1FD3F4E9005C2F16 /* BadmintonScoreCounterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A02986321FD3F4E9005C2F16 /* BadmintonScoreCounter */ = {
+			isa = PBXGroup;
+			children = (
+				A02986331FD3F4E9005C2F16 /* AppDelegate.swift */,
+				A02986351FD3F4E9005C2F16 /* ViewController.swift */,
+				A02986611FD42BFD005C2F16 /* StepperViewController.swift */,
+				A02986371FD3F4E9005C2F16 /* Main.storyboard */,
+				A029863A1FD3F4E9005C2F16 /* Assets.xcassets */,
+				A029863C1FD3F4E9005C2F16 /* LaunchScreen.storyboard */,
+				A029863F1FD3F4E9005C2F16 /* Info.plist */,
+			);
+			path = BadmintonScoreCounter;
+			sourceTree = "<group>";
+		};
+		A02986471FD3F4E9005C2F16 /* BadmintonScoreCounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				A02986481FD3F4E9005C2F16 /* BadmintonScoreCounterTests.swift */,
+				A029864A1FD3F4E9005C2F16 /* Info.plist */,
+			);
+			path = BadmintonScoreCounterTests;
+			sourceTree = "<group>";
+		};
+		A02986521FD3F4E9005C2F16 /* BadmintonScoreCounterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A02986531FD3F4E9005C2F16 /* BadmintonScoreCounterUITests.swift */,
+				A02986551FD3F4E9005C2F16 /* Info.plist */,
+			);
+			path = BadmintonScoreCounterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A029862F1FD3F4E9005C2F16 /* BadmintonScoreCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A02986581FD3F4E9005C2F16 /* Build configuration list for PBXNativeTarget "BadmintonScoreCounter" */;
+			buildPhases = (
+				A029862C1FD3F4E9005C2F16 /* Sources */,
+				A029862D1FD3F4E9005C2F16 /* Frameworks */,
+				A029862E1FD3F4E9005C2F16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BadmintonScoreCounter;
+			productName = BadmintonScoreCounter;
+			productReference = A02986301FD3F4E9005C2F16 /* BadmintonScoreCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A02986431FD3F4E9005C2F16 /* BadmintonScoreCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A029865B1FD3F4E9005C2F16 /* Build configuration list for PBXNativeTarget "BadmintonScoreCounterTests" */;
+			buildPhases = (
+				A02986401FD3F4E9005C2F16 /* Sources */,
+				A02986411FD3F4E9005C2F16 /* Frameworks */,
+				A02986421FD3F4E9005C2F16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A02986461FD3F4E9005C2F16 /* PBXTargetDependency */,
+			);
+			name = BadmintonScoreCounterTests;
+			productName = BadmintonScoreCounterTests;
+			productReference = A02986441FD3F4E9005C2F16 /* BadmintonScoreCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A029864E1FD3F4E9005C2F16 /* BadmintonScoreCounterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A029865E1FD3F4E9005C2F16 /* Build configuration list for PBXNativeTarget "BadmintonScoreCounterUITests" */;
+			buildPhases = (
+				A029864B1FD3F4E9005C2F16 /* Sources */,
+				A029864C1FD3F4E9005C2F16 /* Frameworks */,
+				A029864D1FD3F4E9005C2F16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A02986511FD3F4E9005C2F16 /* PBXTargetDependency */,
+			);
+			name = BadmintonScoreCounterUITests;
+			productName = BadmintonScoreCounterUITests;
+			productReference = A029864F1FD3F4E9005C2F16 /* BadmintonScoreCounterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A02986281FD3F4E9005C2F16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Hilmy Corp.";
+				TargetAttributes = {
+					A029862F1FD3F4E9005C2F16 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					A02986431FD3F4E9005C2F16 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A029862F1FD3F4E9005C2F16;
+					};
+					A029864E1FD3F4E9005C2F16 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A029862F1FD3F4E9005C2F16;
+					};
+				};
+			};
+			buildConfigurationList = A029862B1FD3F4E9005C2F16 /* Build configuration list for PBXProject "BadmintonScoreCounter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A02986271FD3F4E9005C2F16;
+			productRefGroup = A02986311FD3F4E9005C2F16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A029862F1FD3F4E9005C2F16 /* BadmintonScoreCounter */,
+				A02986431FD3F4E9005C2F16 /* BadmintonScoreCounterTests */,
+				A029864E1FD3F4E9005C2F16 /* BadmintonScoreCounterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A029862E1FD3F4E9005C2F16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A029863E1FD3F4E9005C2F16 /* LaunchScreen.storyboard in Resources */,
+				A029863B1FD3F4E9005C2F16 /* Assets.xcassets in Resources */,
+				A02986391FD3F4E9005C2F16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02986421FD3F4E9005C2F16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A029864D1FD3F4E9005C2F16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A029862C1FD3F4E9005C2F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02986621FD42BFD005C2F16 /* StepperViewController.swift in Sources */,
+				A02986361FD3F4E9005C2F16 /* ViewController.swift in Sources */,
+				A02986341FD3F4E9005C2F16 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02986401FD3F4E9005C2F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02986491FD3F4E9005C2F16 /* BadmintonScoreCounterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A029864B1FD3F4E9005C2F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02986541FD3F4E9005C2F16 /* BadmintonScoreCounterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A02986461FD3F4E9005C2F16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A029862F1FD3F4E9005C2F16 /* BadmintonScoreCounter */;
+			targetProxy = A02986451FD3F4E9005C2F16 /* PBXContainerItemProxy */;
+		};
+		A02986511FD3F4E9005C2F16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A029862F1FD3F4E9005C2F16 /* BadmintonScoreCounter */;
+			targetProxy = A02986501FD3F4E9005C2F16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A02986371FD3F4E9005C2F16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A02986381FD3F4E9005C2F16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A029863C1FD3F4E9005C2F16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A029863D1FD3F4E9005C2F16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A02986561FD3F4E9005C2F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A02986571FD3F4E9005C2F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A02986591FD3F4E9005C2F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = BadmintonScoreCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.BadmintonScoreCounter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A029865A1FD3F4E9005C2F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = BadmintonScoreCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.BadmintonScoreCounter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A029865C1FD3F4E9005C2F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = BadmintonScoreCounterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.BadmintonScoreCounterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BadmintonScoreCounter.app/BadmintonScoreCounter";
+			};
+			name = Debug;
+		};
+		A029865D1FD3F4E9005C2F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = BadmintonScoreCounterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.BadmintonScoreCounterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BadmintonScoreCounter.app/BadmintonScoreCounter";
+			};
+			name = Release;
+		};
+		A029865F1FD3F4E9005C2F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = BadmintonScoreCounterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.BadmintonScoreCounterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BadmintonScoreCounter;
+			};
+			name = Debug;
+		};
+		A02986601FD3F4E9005C2F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = BadmintonScoreCounterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.BadmintonScoreCounterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BadmintonScoreCounter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A029862B1FD3F4E9005C2F16 /* Build configuration list for PBXProject "BadmintonScoreCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02986561FD3F4E9005C2F16 /* Debug */,
+				A02986571FD3F4E9005C2F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A02986581FD3F4E9005C2F16 /* Build configuration list for PBXNativeTarget "BadmintonScoreCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02986591FD3F4E9005C2F16 /* Debug */,
+				A029865A1FD3F4E9005C2F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A029865B1FD3F4E9005C2F16 /* Build configuration list for PBXNativeTarget "BadmintonScoreCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A029865C1FD3F4E9005C2F16 /* Debug */,
+				A029865D1FD3F4E9005C2F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A029865E1FD3F4E9005C2F16 /* Build configuration list for PBXNativeTarget "BadmintonScoreCounterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A029865F1FD3F4E9005C2F16 /* Debug */,
+				A02986601FD3F4E9005C2F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A02986281FD3F4E9005C2F16 /* Project object */;
+}
