@@ -11,8 +11,6 @@ import UIKit
 
 class StepperViewController: UIViewController {
 
-    
-    @IBOutlet weak var labelDecision: UILabel!
     @IBOutlet weak var steppersatu: UIStepper!
     @IBOutlet weak var stepperdua: UIStepper!
     @IBAction func btnStepperSatu(_ sender: UIStepper) {
@@ -20,7 +18,6 @@ class StepperViewController: UIViewController {
     }
     @IBAction func btnStepperDua(_ sender: UIStepper) {
         hasilDua.text = Int(sender.value).description
-
     }
     
     @IBOutlet weak var hasilSatu: UILabel!
@@ -33,11 +30,11 @@ class StepperViewController: UIViewController {
     
     override func viewDidLoad() {
         
-        if (hasilSatu.text! == "21") {
-            labelDecision.text = first + "Is Win"
-        }else if (hasilDua.text! == "21") {
-            labelDecision.text = second + "Is Win"
-        }
+//        if (hasilSatu.text! == "21") {
+//            labelDecision.text = first + "Is Win"
+//        }else if (hasilDua.text! == "21") {
+//            labelDecision.text = second + "Is Win"
+//        }
         super.viewDidLoad()
 
         
